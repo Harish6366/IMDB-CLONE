@@ -1,12 +1,54 @@
-# React + Vite
+🎬 IMDb Clone – React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive IMDb-style movie discovery app built with React.js, featuring trending movie listings and a personalized watchlist with search and sorting functionality.
 
-Currently, two official plugins are available:
+🚀 Features
+🎥 Trending & Popular Movies (Home Page)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Home page displays trending or top-rated movies fetched from a movie database API.
+Each movie card shows:
 
-## Expanding the ESLint configuration
+Poster
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Title
+
+Rating
+
+Popularity
+
+(There is no search bar on the Home page, as per your project.)
+
+🔎 Search in Watchlist
+
+Search functionality is available only inside the Watchlist page, allowing users to quickly find movies they saved.
+
+📌 Watchlist (Persistent)
+
+Users can:
+
+Add movies to Watchlist
+
+Remove movies from Watchlist
+
+Search, sort, and filter the watchlist
+
+All data is stored in localStorage, so it persists even after refresh.
+
+📊 Sorting & Filtering
+
+Sort the watchlist by:
+
+Rating
+
+Popularity
+
+📱 Responsive UI
+
+Fully responsive layout for desktop and mobile.
+
+🛠️ Tech Stack
+Layer	Technology
+Frontend	React.js
+Styling	CSS
+API	TMDb (or similar)
+Storage	localStorage
